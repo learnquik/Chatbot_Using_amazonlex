@@ -75,7 +75,7 @@ def sendEmail():
             s.starttls()
 
             # Authentication
-            s.login(fromaddr,"Prisu@8217") # give your password here
+            s.login(fromaddr,"yourPassword") # give your password here
 
             # Converts the Multipart msg into a string
             text = msg.as_string()
